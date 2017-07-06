@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    
+	<test name="Test">
+	    <parameter name="lang" value="en"/>
+		<parameter name="browser" value="chrome"/>
+		<parameter name="url" value="Staging"/>
+		
+		<classes>
+			<class name="com.one.webshop.tests.WebTest1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
