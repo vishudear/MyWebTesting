@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTestSuite">
+	<!-- <listeners>
+    	<listener class-name="selenium.core.ScreenshotListener"/>
+  	</listeners>
+  	 -->
+	<test name="SmokeTest">
+		<parameter name="lang" value="en"/>
+		<parameter name="browser" value="chrome"/>
+		<parameter name="url" value="next"/>
+		
+		<classes>
+			<class name="com.one.webshop.tests.WebTest1" />
+		</classes>
+	</test>
+</suite>
